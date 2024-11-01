@@ -22,7 +22,7 @@ export const headerMenus = [
         color: "#dc143c"
     },
     {
-        title: "코드잇",
+        title: "1234",
         icon: <BsCCircleFill />,
         src: "/codeit",
         color: "#93f"
