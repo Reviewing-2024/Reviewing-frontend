@@ -1,0 +1,64 @@
+.inflearn__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    padding: 26px;
+    width: 242px;
+    
+}
+
+.item img {
+    width: 240px;
+    height: 150px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.item-inner {
+    text-align: center;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+
+
+.item-rkdtk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-rkdtk p {
+    font-weight: 900;
+    font-size: 12px;
+
+}
+
+.item-rkdtk span {
+    font-weight: 900;
+    font-size: 17px;
+    /* color: #88BAF7; */
+}
+
+.item-rkdtk span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+/* 
+.item h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+} */
+
+.item img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
